@@ -1,0 +1,35 @@
+unistr/u8-uctomb-aux.o: unistr/u8-uctomb-aux.c ../src/config.h unistr.h \
+ unitypes.h stdint.h /usr/lib/gcc/x86_64-pc-cygwin/12/include/stdint.h \
+ /usr/include/stdint.h /usr/include/machine/_default_types.h \
+ /usr/include/sys/features.h /usr/include/_newlib_version.h \
+ /usr/include/sys/_intsup.h /usr/include/sys/_stdint.h limits.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/12/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/12/include/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/12/include/stddef.h \
+ /usr/include/bits/wordsize.h /usr/include/cygwin/limits.h \
+ unused-parameter.h /usr/lib/gcc/x86_64-pc-cygwin/12/include/stdbool.h \
+ attribute.h
+../src/config.h:
+unistr.h:
+unitypes.h:
+stdint.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/machine/_default_types.h:
+/usr/include/sys/features.h:
+/usr/include/_newlib_version.h:
+/usr/include/sys/_intsup.h:
+/usr/include/sys/_stdint.h:
+limits.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/limits.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/syslimits.h:
+/usr/include/limits.h:
+/usr/include/features.h:
+/usr/include/sys/cdefs.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/stddef.h:
+/usr/include/bits/wordsize.h:
+/usr/include/cygwin/limits.h:
+unused-parameter.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/stdbool.h:
+attribute.h:

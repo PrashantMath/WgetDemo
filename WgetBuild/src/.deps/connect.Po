@@ -1,0 +1,180 @@
+connect.o: connect.c wget.h config.h sysdep.h ../lib/sys/types.h \
+ /usr/include/sys/types.h /usr/include/_ansi.h /usr/include/newlib.h \
+ /usr/include/_newlib_version.h /usr/include/sys/config.h \
+ /usr/include/machine/ieeefp.h /usr/include/sys/features.h \
+ /usr/include/cygwin/config.h /usr/include/sys/cdefs.h \
+ /usr/include/machine/_default_types.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/12/include/stddef.h \
+ /usr/include/machine/_types.h /usr/include/sys/_types.h \
+ /usr/include/sys/_stdint.h /usr/include/machine/endian.h \
+ /usr/include/machine/_endian.h /usr/include/bits/endian.h \
+ ../lib/sys/select.h /usr/include/sys/select.h /usr/include/sys/_sigset.h \
+ /usr/include/sys/_timeval.h /usr/include/sys/timespec.h \
+ /usr/include/sys/_timespec.h /usr/include/sys/_pthreadtypes.h \
+ /usr/include/sys/cpuset.h /usr/include/machine/types.h \
+ /usr/include/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/bits/wordsize.h /usr/include/sys/sysmacros.h \
+ ../lib/sys/stat.h ../lib/time.h /usr/include/time.h /usr/include/_ansi.h \
+ /usr/include/sys/reent.h /usr/include/sys/lock.h \
+ /usr/include/machine/time.h /usr/include/sys/_locale.h \
+ /usr/include/cygwin/time.h ../lib/signal.h /usr/include/signal.h \
+ /usr/include/sys/signal.h ../lib/stdint.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/12/include/stdint.h /usr/include/stdint.h \
+ /usr/include/sys/_intsup.h ../lib/limits.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/12/include/limits.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/12/include/syslimits.h \
+ /usr/include/limits.h /usr/include/features.h \
+ /usr/include/cygwin/limits.h /usr/include/cygwin/signal.h \
+ /usr/include/sys/ucontext.h /usr/include/sys/stat.h \
+ /usr/include/cygwin/stat.h ../lib/inttypes.h /usr/include/inttypes.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/12/include/stdbool.h ../lib/fnmatch.h \
+ ../lib/intprops.h ../lib/gettext.h /usr/include/libintl.h \
+ ../lib/locale.h /usr/include/locale.h ../lib/setlocale_null.h \
+ ../lib/arg-nonnull.h ../lib/string.h /usr/include/string.h \
+ ../lib/strings.h /usr/include/strings.h /usr/include/sys/string.h \
+ ../lib/c-ctype.h options.h ../lib/xalloc.h ../lib/xalloc-oversized.h \
+ log.h ../lib/stdio.h /usr/include/stdio.h \
+ /usr/lib/gcc/x86_64-pc-cygwin/12/include/stdarg.h \
+ /usr/include/sys/stdio.h ../lib/quote.h ../lib/quotearg.h iri.h exits.h \
+ ../lib/stdlib.h /usr/include/stdlib.h /usr/include/machine/stdlib.h \
+ ../lib/alloca.h /usr/include/cygwin/stdlib.h /usr/include/cygwin/wait.h \
+ ../lib/unistd.h /usr/include/unistd.h /usr/include/sys/unistd.h \
+ /usr/include/getopt.h /usr/include/assert.h ../lib/sys/socket.h \
+ /usr/include/sys/socket.h /usr/include/cygwin/socket.h \
+ /usr/include/asm/socket.h /usr/include/cygwin/if.h \
+ /usr/include/cygwin/sockios.h ../lib/sys/uio.h /usr/include/sys/uio.h \
+ /usr/include/cygwin/_ucred.h /usr/include/cygwin/_socketflags.h \
+ ../lib/netdb.h /usr/include/netdb.h /usr/include/netinet/in.h \
+ /usr/include/cygwin/in.h /usr/include/asm/byteorder.h \
+ /usr/include/cygwin/in6.h ../lib/arpa/inet.h /usr/include/arpa/inet.h \
+ /usr/include/errno.h /usr/include/sys/errno.h ../lib/sys/time.h \
+ /usr/include/sys/time.h /usr/include/machine/_time.h utils.h wget.h \
+ host.h connect.h hash.h
+wget.h:
+config.h:
+sysdep.h:
+../lib/sys/types.h:
+/usr/include/sys/types.h:
+/usr/include/_ansi.h:
+/usr/include/newlib.h:
+/usr/include/_newlib_version.h:
+/usr/include/sys/config.h:
+/usr/include/machine/ieeefp.h:
+/usr/include/sys/features.h:
+/usr/include/cygwin/config.h:
+/usr/include/sys/cdefs.h:
+/usr/include/machine/_default_types.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/stddef.h:
+/usr/include/machine/_types.h:
+/usr/include/sys/_types.h:
+/usr/include/sys/_stdint.h:
+/usr/include/machine/endian.h:
+/usr/include/machine/_endian.h:
+/usr/include/bits/endian.h:
+../lib/sys/select.h:
+/usr/include/sys/select.h:
+/usr/include/sys/_sigset.h:
+/usr/include/sys/_timeval.h:
+/usr/include/sys/timespec.h:
+/usr/include/sys/_timespec.h:
+/usr/include/sys/_pthreadtypes.h:
+/usr/include/sys/cpuset.h:
+/usr/include/machine/types.h:
+/usr/include/endian.h:
+/usr/include/bits/byteswap.h:
+/usr/include/bits/wordsize.h:
+/usr/include/sys/sysmacros.h:
+../lib/sys/stat.h:
+../lib/time.h:
+/usr/include/time.h:
+/usr/include/_ansi.h:
+/usr/include/sys/reent.h:
+/usr/include/sys/lock.h:
+/usr/include/machine/time.h:
+/usr/include/sys/_locale.h:
+/usr/include/cygwin/time.h:
+../lib/signal.h:
+/usr/include/signal.h:
+/usr/include/sys/signal.h:
+../lib/stdint.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/stdint.h:
+/usr/include/stdint.h:
+/usr/include/sys/_intsup.h:
+../lib/limits.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/limits.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/syslimits.h:
+/usr/include/limits.h:
+/usr/include/features.h:
+/usr/include/cygwin/limits.h:
+/usr/include/cygwin/signal.h:
+/usr/include/sys/ucontext.h:
+/usr/include/sys/stat.h:
+/usr/include/cygwin/stat.h:
+../lib/inttypes.h:
+/usr/include/inttypes.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/stdbool.h:
+../lib/fnmatch.h:
+../lib/intprops.h:
+../lib/gettext.h:
+/usr/include/libintl.h:
+../lib/locale.h:
+/usr/include/locale.h:
+../lib/setlocale_null.h:
+../lib/arg-nonnull.h:
+../lib/string.h:
+/usr/include/string.h:
+../lib/strings.h:
+/usr/include/strings.h:
+/usr/include/sys/string.h:
+../lib/c-ctype.h:
+options.h:
+../lib/xalloc.h:
+../lib/xalloc-oversized.h:
+log.h:
+../lib/stdio.h:
+/usr/include/stdio.h:
+/usr/lib/gcc/x86_64-pc-cygwin/12/include/stdarg.h:
+/usr/include/sys/stdio.h:
+../lib/quote.h:
+../lib/quotearg.h:
+iri.h:
+exits.h:
+../lib/stdlib.h:
+/usr/include/stdlib.h:
+/usr/include/machine/stdlib.h:
+../lib/alloca.h:
+/usr/include/cygwin/stdlib.h:
+/usr/include/cygwin/wait.h:
+../lib/unistd.h:
+/usr/include/unistd.h:
+/usr/include/sys/unistd.h:
+/usr/include/getopt.h:
+/usr/include/assert.h:
+../lib/sys/socket.h:
+/usr/include/sys/socket.h:
+/usr/include/cygwin/socket.h:
+/usr/include/asm/socket.h:
+/usr/include/cygwin/if.h:
+/usr/include/cygwin/sockios.h:
+../lib/sys/uio.h:
+/usr/include/sys/uio.h:
+/usr/include/cygwin/_ucred.h:
+/usr/include/cygwin/_socketflags.h:
+../lib/netdb.h:
+/usr/include/netdb.h:
+/usr/include/netinet/in.h:
+/usr/include/cygwin/in.h:
+/usr/include/asm/byteorder.h:
+/usr/include/cygwin/in6.h:
+../lib/arpa/inet.h:
+/usr/include/arpa/inet.h:
+/usr/include/errno.h:
+/usr/include/sys/errno.h:
+../lib/sys/time.h:
+/usr/include/sys/time.h:
+/usr/include/machine/_time.h:
+utils.h:
+wget.h:
+host.h:
+connect.h:
+hash.h:

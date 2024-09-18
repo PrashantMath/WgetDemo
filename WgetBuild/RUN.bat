@@ -4,9 +4,11 @@ set RESULT=ResultBF
 set PROG=WgetCI
 set PARENT_PROJECT_ON_ACCESS=public/pmathapa
 set WSP=%WORKSPACE%\Wget
+set build_cmd=build_new.bat
+
 rd /S /Q Notification && md Notification
 
-polyspace-configure -allow-overwrite -prog "%PROG%" -output-options-file "%WSP%\PSOpts.opts" make
+polyspace-configure -allow-overwrite -prog "%PROG%" -output-options-file "%WSP%\PSOpts.opts" %build_cmd% || EXIT /B 200
 
 polyspace-bug-finder-server.exe -options-file "%WSP%\PSOpts.opts" -results-dir "%WSP%\R_BF_%BUILD_NUMBER%"   ||  EXIT /B 200
 
